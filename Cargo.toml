@@ -1,0 +1,15 @@
+[package]
+name = "rust-workshop-demo"
+version = "0.1.0"
+authors = ["Vlad Filippov <vlad.filippov@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+askama = "=0.8"
+failure = "=0.1.6"
+actix-web = "=1.0.8"
+reqwest = "=0.9.22"
+serde = "=1.0.102"
+serde_json = "=1.0.41"
